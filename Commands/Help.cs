@@ -18,8 +18,11 @@ namespace CosmosKernel2.Commands
             Console.WriteLine("file rmdir - Removes a directory");
             Console.WriteLine("file writestr - Writes to a file");
             Console.WriteLine("file readstr - Reads the first 256 bytes of a file");
+            Console.WriteLine("getram - Outputs the amount of RAM available to use");
+            Console.WriteLine("getusedram - Outputs the amount of RAM used");
             Console.WriteLine("help - Gives a list of UnkOS commands");
-            return "Command executed successfully";
+            Console.WriteLine("launchgui - Outputs the amount of RAM used");
+            return "Command executed successfully.";
         }
 
     }
